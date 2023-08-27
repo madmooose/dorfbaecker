@@ -1,0 +1,1077 @@
+[
+    {
+        "id": "71cddc240ce38ad8",
+        "type": "tab",
+        "label": "Dashboard",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a652117a6617f563",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "67b62e25777f6596",
+        "type": "telegram bot",
+        "botname": "Drofbäcker",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "usesocks": false,
+        "sockshost": "",
+        "socksprotocol": "socks5",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "99bb8530da240e30",
+        "type": "ui_group",
+        "name": "Dorf Weier",
+        "tab": "aa9ad9a180149fce",
+        "order": 1,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "aa9ad9a180149fce",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "140fb07408ab2d1a",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD.MM.YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "fb202f2b9c4ea98f",
+        "type": "ui_tab",
+        "name": "Table",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "62dfbcc18cecd156",
+        "type": "ui_group",
+        "name": "Dorf Steinbach",
+        "tab": "aa9ad9a180149fce",
+        "order": 2,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "44446ade1c78e5a2",
+        "type": "ui_group",
+        "name": "Dorf Burg",
+        "tab": "aa9ad9a180149fce",
+        "order": 3,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9095e3cd09678aa1",
+        "type": "ui_group",
+        "name": "Chatinput",
+        "tab": "aa9ad9a180149fce",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b408bba49ab13a6e",
+        "type": "inject",
+        "z": "71cddc240ce38ad8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{     \"temperature\": 25.5,     \"humidity\": 50.2,     \"status\": \"OK\" }",
+        "payloadType": "json",
+        "x": 150,
+        "y": 160,
+        "wires": [
+            [
+                "28995583c40afecf"
+            ]
+        ]
+    },
+    {
+        "id": "28995583c40afecf",
+        "type": "function",
+        "z": "71cddc240ce38ad8",
+        "name": "ExtractText",
+        "func": "msg.payload = {\n    factory: {\n        Graubrot: {\n            Produkt: \"Graubrot\",\n            Stueckzahl: 4,\n            Status: \"Lui\"\n        },\n        Baguette: {\n            Produkt: \"Baguette\",\n            Stueckzahl: 4,\n            Status: \"Matthias\"\n        }\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 160,
+        "wires": [
+            [
+                "b03535b4fe7b74de"
+            ]
+        ]
+    },
+    {
+        "id": "b03535b4fe7b74de",
+        "type": "ui_template",
+        "z": "71cddc240ce38ad8",
+        "group": "99bb8530da240e30",
+        "name": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<p>Adresse: Weierstraße 24</p>\n<br>\n<div layout=\"row\" layout-align=\"start center\">\n    <span flex><b>Produkt</b></span>\n    <span flex><b>Stückzahl</b></span>\n    <span flex><b>Besteller</b></span>\n</div>\n<div style=\"padding: 5px;\">\n</div>\n<div layout=\"row\" layout-align=\"start center\" ng-repeat=\"machine in msg.payload.factory\">\n    <span flex style=\"color: black\">{{machine.Produkt}}</span>\n    <span flex style=\"color: black\">{{machine.Stueckzahl}}</span>\n    <span flex style=\"color: black\">{{machine.Status}}</span>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 640,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b690909daa172890",
+        "type": "function",
+        "z": "71cddc240ce38ad8",
+        "name": "ExtractText",
+        "func": "msg.payload = {\n    factory: {\n        Graubrot: {\n            Produkt: \"Graubrot\",\n            Stueckzahl: 2,\n            Status: \"Jochen\"\n        },\n        Baguette: {\n            Produkt: \"Baguette\",\n            Stueckzahl: 6,\n            Status: \"Stefan\"\n        }\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 240,
+        "wires": [
+            [
+                "53b698e4e51da95a"
+            ]
+        ]
+    },
+    {
+        "id": "52627b0a5e4f1e63",
+        "type": "inject",
+        "z": "71cddc240ce38ad8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{     \"temperature\": 25.5,     \"humidity\": 50.2,     \"status\": \"OK\" }",
+        "payloadType": "json",
+        "x": 150,
+        "y": 240,
+        "wires": [
+            [
+                "b690909daa172890"
+            ]
+        ]
+    },
+    {
+        "id": "53b698e4e51da95a",
+        "type": "ui_template",
+        "z": "71cddc240ce38ad8",
+        "group": "62dfbcc18cecd156",
+        "name": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<p>Adresse: Steinweg 12</p>\n<br>\n<div layout=\"row\" layout-align=\"start center\">\n    <span flex><b>Produkt</b></span>\n    <span flex><b>Stückzahl</b></span>\n    <span flex><b>Besteller</b></span>\n</div>\n<div style=\"padding: 5px;\">\n<div layout=\"row\" layout-align=\"start center\" ng-repeat=\"machine in msg.payload.factory\">\n    <span flex style=\"color: black\">{{machine.Produkt}}</span>\n    <span flex style=\"color: black\">{{machine.Stueckzahl}}</span>\n    <span flex style=\"color: black\">{{machine.Status}}</span>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 640,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4ff00d599a433c4d",
+        "type": "function",
+        "z": "71cddc240ce38ad8",
+        "name": "ExtractText",
+        "func": "context.flow.orders.unshift(msg.payload.order);\nmsg.payload.orders = context.flow.orders;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 320,
+        "wires": [
+            [
+                "b6dd68b505f95c37",
+                "989b7c3ff6edc752"
+            ]
+        ]
+    },
+    {
+        "id": "a5ec4b02cb09b457",
+        "type": "inject",
+        "z": "71cddc240ce38ad8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"factory\":{\"Graubrot\":{\"Produkt\":\"keine Bestellung\",\"Stueckzahl\":\"\",\"Status\":\"\"}}}",
+        "payloadType": "json",
+        "x": 150,
+        "y": 320,
+        "wires": [
+            [
+                "4383eba5e7014cb0"
+            ]
+        ]
+    },
+    {
+        "id": "b6dd68b505f95c37",
+        "type": "ui_template",
+        "z": "71cddc240ce38ad8",
+        "group": "44446ade1c78e5a2",
+        "name": "",
+        "order": 1,
+        "width": "10",
+        "height": "3",
+        "format": "<p>Adresse: Burgdorf 2</p>\n<br>\n<div layout=\"row\" layout-align=\"start center\">\n    <span flex><b>Produkt</b></span>\n    <span flex><b>Stückzahl</b></span>\n    <span flex><b>Besteller</b></span>\n</div>\n<div style=\"padding: 5px;\">\n<div layout=\"row\" layout-align=\"start center\" ng-repeat=\"machine in msg.payload.orders\">\n    <span flex style=\"color: black\">{{machine.product}}</span>\n    <span flex style=\"color: black\">{{machine.amount}}</span>\n    <span flex style=\"color: black\">{{machine.username}}</span>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 680,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4383eba5e7014cb0",
+        "type": "json",
+        "z": "71cddc240ce38ad8",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 290,
+        "y": 320,
+        "wires": [
+            [
+                "4ff00d599a433c4d"
+            ]
+        ]
+    },
+    {
+        "id": "989b7c3ff6edc752",
+        "type": "debug",
+        "z": "71cddc240ce38ad8",
+        "name": "Debug_original",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "6ad1add3fccf3d51",
+        "type": "link in",
+        "z": "71cddc240ce38ad8",
+        "name": "order in",
+        "links": [
+            "fc1764297c6e09b2"
+        ],
+        "x": 205,
+        "y": 420,
+        "wires": [
+            [
+                "4ff00d599a433c4d"
+            ]
+        ]
+    },
+    {
+        "id": "32ddac256847b1e8",
+        "type": "ui_text_input",
+        "z": "71cddc240ce38ad8",
+        "name": "",
+        "label": "",
+        "tooltip": "",
+        "group": "9095e3cd09678aa1",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "payload",
+        "sendOnBlur": false,
+        "className": "",
+        "topicType": "msg",
+        "x": 400,
+        "y": 720,
+        "wires": [
+            [
+                "3e0edca2c44f2b03"
+            ]
+        ]
+    },
+    {
+        "id": "689650d3061d3f2c",
+        "type": "ui_template",
+        "z": "71cddc240ce38ad8",
+        "group": "9095e3cd09678aa1",
+        "name": "",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "format": "<span ng-bind-html=\"msg.payload.message.message\"></span>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 780,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "182524d02dd0ccce",
+        "type": "debug",
+        "z": "71cddc240ce38ad8",
+        "name": "debug 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "97cf852e5c6aba2f",
+        "type": "inject",
+        "z": "71cddc240ce38ad8",
+        "name": "Messages",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{ \t\"content\": [{ \t\t\t\"sender\": \"A\", \t\t\t\"msg\": \"Hi there!\" \t\t}, \t\t{ \t\t\t\"sender\": \"A\", \t\t\t\"msg\": \"You Good?\" \t\t}, \t\t{ \t\t\t\"sender\": \"B\", \t\t\t\"msg\": \"Hi man!\" \t\t}, \t\t{ \t\t\t\"sender\": \"A\", \t\t\t\"msg\": \"Hi again.\" \t\t}, \t\t{ \t\t\t\"sender\": \"B\", \t\t\t\"msg\": \"Yes fine.\" \t\t} \t] }",
+        "payloadType": "json",
+        "x": 140,
+        "y": 520,
+        "wires": [
+            [
+                "7875b9ed42a13dc5"
+            ]
+        ]
+    },
+    {
+        "id": "7875b9ed42a13dc5",
+        "type": "function",
+        "z": "71cddc240ce38ad8",
+        "name": "ExtractText",
+        "func": "return msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a2ae8a398a45bdc6",
+        "type": "link out",
+        "z": "71cddc240ce38ad8",
+        "name": "answer out",
+        "mode": "link",
+        "links": [
+            "f5bbe92524e9f0b0"
+        ],
+        "x": 735,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "0fe39418f3cf8c61",
+        "type": "link in",
+        "z": "71cddc240ce38ad8",
+        "name": "custom message in",
+        "links": [
+            "d129f4b48cae7052"
+        ],
+        "x": 315,
+        "y": 600,
+        "wires": [
+            [
+                "cc9e9a21cfe9b6ab",
+                "c3e667959ef65f63"
+            ]
+        ]
+    },
+    {
+        "id": "cc9e9a21cfe9b6ab",
+        "type": "json",
+        "z": "71cddc240ce38ad8",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 410,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c3e667959ef65f63",
+        "type": "function",
+        "z": "71cddc240ce38ad8",
+        "name": "function 6",
+        "func": "context.flow.chatid = msg.payload.message.chatid;\nmsg.payload.message.message = msg.payload.message.username +': ' + msg.payload.message.message;\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 600,
+        "wires": [
+            [
+                "689650d3061d3f2c"
+            ]
+        ]
+    },
+    {
+        "id": "3e0edca2c44f2b03",
+        "type": "function",
+        "z": "71cddc240ce38ad8",
+        "name": "function 7",
+        "func": "context.flow.message = msg.payload;\nmsg.payload = {\n    \"content\": context.flow.message,\n    \"chatId\" : context.flow.chatid\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 720,
+        "wires": [
+            [
+                "a2ae8a398a45bdc6",
+                "182524d02dd0ccce"
+            ]
+        ]
+    },
+    {
+        "id": "12c07eb06a7f3328",
+        "type": "debug",
+        "z": "71cddc240ce38ad8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 350,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "565a172a06d6c9bd",
+        "type": "catch",
+        "z": "71cddc240ce38ad8",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 180,
+        "y": 40,
+        "wires": [
+            [
+                "12c07eb06a7f3328"
+            ]
+        ]
+    },
+    {
+        "id": "fa90cc3ed8962010",
+        "type": "inject",
+        "z": "71cddc240ce38ad8",
+        "name": "initialize",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 480,
+        "wires": [
+            [
+                "9d815c3ba73b23b0"
+            ]
+        ]
+    },
+    {
+        "id": "9d815c3ba73b23b0",
+        "type": "function",
+        "z": "71cddc240ce38ad8",
+        "name": "function 8",
+        "func": "context.flow.orders = [\n    {\n        product: \"Schwarzbrot\",\n        amount: 4,\n        username: \"Ole\"\n    }\n];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f77ff55c.626e28",
+        "type": "debug",
+        "z": "a652117a6617f563",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 310,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "14687b00.bcecc5",
+        "type": "catch",
+        "z": "a652117a6617f563",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 140,
+        "y": 60,
+        "wires": [
+            [
+                "f77ff55c.626e28"
+            ]
+        ]
+    },
+    {
+        "id": "f4f4a1f15f6f7deb",
+        "type": "telegram sender",
+        "z": "a652117a6617f563",
+        "name": "show keyboard",
+        "bot": "67b62e25777f6596",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 620,
+        "y": 140,
+        "wires": [
+            [
+                "1e158e8f4bdc8098"
+            ]
+        ]
+    },
+    {
+        "id": "e21542be68e52785",
+        "type": "function",
+        "z": "a652117a6617f563",
+        "name": "confirmation message",
+        "func": "\nif (!context.global.keyboard.state) {\n\n  var opts = {\n    reply_to_message_id: msg.payload.messageId,\n    reply_markup: JSON.stringify({\n      keyboard: [\n        ['Graubrot'],\n        ['Landbrot'],\n        ['Baguette']\n      ],\n      'resize_keyboard': true,\n      'one_time_keyboard': true\n    })\n  };\n\n  msg.payload.content = 'Welches Brot möchtest du bestellen?';\n  msg.payload.options = opts;\n\n  return [msg];\n\n}\n",
+        "outputs": "1",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 140,
+        "wires": [
+            [
+                "f4f4a1f15f6f7deb"
+            ]
+        ]
+    },
+    {
+        "id": "4b34aecd89cecc0f",
+        "type": "function",
+        "z": "a652117a6617f563",
+        "name": "create response",
+        "func": "if (context.global.keyboard.state == 1) {\n    context.global.keyboard.state = 2;\n    \n    context.flow.product = msg.payload.content;\n    msg.payload.content = 'Wieviel '+ msg.payload.content +' darf es sein?';\n    return [msg, null, null];   \n} else if (context.global.keyboard.state == 2) {\n    context.global.keyboard.state = 3;\n    \n    context.flow.amount = msg.payload.content;\n    msg.payload.content = 'Danke für deine Bestellung, ' +\n        context.flow.username + '.\\n' +\n        'Du bekommst ' + context.flow.amount + ' ' +\n        context.flow.product + '.\\n' +\n        'Schreib uns noch was persönliches:';\n    return [null, msg, null];   \n} else if (context.global.keyboard.state == 3) {\n    context.global.keyboard.state = 0;\n\n    context.flow.message = msg.payload.content;\n    return [null, null, msg];   \n}",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 200,
+        "wires": [
+            [
+                "abea05fe057de3a6"
+            ],
+            [
+                "abea05fe057de3a6",
+                "5837411ac6d85812"
+            ],
+            [
+                "5f3c5d8cdcef64b9"
+            ]
+        ]
+    },
+    {
+        "id": "abea05fe057de3a6",
+        "type": "telegram sender",
+        "z": "a652117a6617f563",
+        "name": "send response",
+        "bot": "67b62e25777f6596",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 620,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "509efb4251d42d7c",
+        "type": "telegram receiver",
+        "z": "a652117a6617f563",
+        "name": "",
+        "bot": "67b62e25777f6596",
+        "saveDataDir": "",
+        "filterCommands": false,
+        "x": 150,
+        "y": 160,
+        "wires": [
+            [
+                "e21542be68e52785",
+                "4b34aecd89cecc0f"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "1e158e8f4bdc8098",
+        "type": "function",
+        "z": "a652117a6617f563",
+        "name": "function 1",
+        "func": "context.global.keyboard = { state: 1 };\ncontext.flow.user_id = msg.payload.content.chat.id;\ncontext.flow.username = msg.payload.content.chat.username;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5837411ac6d85812",
+        "type": "function",
+        "z": "a652117a6617f563",
+        "name": "function 2",
+        "func": "msg.payload ={\n    order: {\n        product: context.flow.product,\n        amount: context.flow.amount,\n        username: context.flow.username\n    }\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 340,
+        "wires": [
+            [
+                "6d40434c6c0f560a"
+            ]
+        ]
+    },
+    {
+        "id": "6d40434c6c0f560a",
+        "type": "json",
+        "z": "a652117a6617f563",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 770,
+        "y": 340,
+        "wires": [
+            [
+                "fc1764297c6e09b2"
+            ]
+        ]
+    },
+    {
+        "id": "fc1764297c6e09b2",
+        "type": "link out",
+        "z": "a652117a6617f563",
+        "name": "order out",
+        "mode": "link",
+        "links": [
+            "6ad1add3fccf3d51"
+        ],
+        "x": 955,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "601b621378699f6b",
+        "type": "inject",
+        "z": "a652117a6617f563",
+        "name": "Initialisierung",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 580,
+        "wires": [
+            [
+                "adf5cc5cc5f8cf14"
+            ]
+        ]
+    },
+    {
+        "id": "adf5cc5cc5f8cf14",
+        "type": "function",
+        "z": "a652117a6617f563",
+        "name": "function 3",
+        "func": "context.global.keyboard = { state: 0};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f5bbe92524e9f0b0",
+        "type": "link in",
+        "z": "a652117a6617f563",
+        "name": "answer in",
+        "links": [
+            "a2ae8a398a45bdc6"
+        ],
+        "x": 135,
+        "y": 480,
+        "wires": [
+            [
+                "1af8a6af5456e7f6"
+            ]
+        ]
+    },
+    {
+        "id": "1af8a6af5456e7f6",
+        "type": "json",
+        "z": "a652117a6617f563",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 270,
+        "y": 480,
+        "wires": [
+            [
+                "820b47b61f366b09"
+            ]
+        ]
+    },
+    {
+        "id": "820b47b61f366b09",
+        "type": "function",
+        "z": "a652117a6617f563",
+        "name": "function 4",
+        "func": "msg.payload.type = \"message\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 480,
+        "wires": [
+            [
+                "d02d4a60e5a2b6e1",
+                "0283dc2594f443a5"
+            ]
+        ]
+    },
+    {
+        "id": "d129f4b48cae7052",
+        "type": "link out",
+        "z": "a652117a6617f563",
+        "name": "custom message out",
+        "mode": "link",
+        "links": [
+            "0fe39418f3cf8c61"
+        ],
+        "x": 925,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "5f3c5d8cdcef64b9",
+        "type": "function",
+        "z": "a652117a6617f563",
+        "name": "function 5",
+        "func": "msg.payload =\n    {\n        message: {\n            username: context.flow.username,\n            message: context.flow.message,\n            chatid: msg.payload.chatId\n        }\n    }\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 400,
+        "wires": [
+            [
+                "66a3384ec9a3677e"
+            ]
+        ]
+    },
+    {
+        "id": "66a3384ec9a3677e",
+        "type": "json",
+        "z": "a652117a6617f563",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 770,
+        "y": 400,
+        "wires": [
+            [
+                "d129f4b48cae7052"
+            ]
+        ]
+    },
+    {
+        "id": "d02d4a60e5a2b6e1",
+        "type": "telegram sender",
+        "z": "a652117a6617f563",
+        "name": "",
+        "bot": "67b62e25777f6596",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 650,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0283dc2594f443a5",
+        "type": "debug",
+        "z": "a652117a6617f563",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 580,
+        "wires": []
+    }
+]
